@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor - Home</title>
+    <!-- GOOGLE FONT'S -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONT'S END-->
+    <!--FAV ICON-->
+    <link rel="shortcut icon" href="./assets/images/fev.png" type="image/x-icon">
+    <!--  font awsome  -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!--   slick   -->
+    <link rel="stylesheet" href="./assets/css/slick.min.css">
+    <!--   bootstrap   -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- custom style or style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--  responsivecss  -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+
+  <!--*****    NAV START     *****-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/nav.Logo (1).png" alt="">
+    </a>
+    <span class="d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+     aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></span>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link " href="./shop.html">Shop</a>
+        </li>
+
+
+
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features
+            <span class="down-arrow"><i class="fa-solid fa-angle-down"></i></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Man's collection</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="#">Women's Collection</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="#">Blogs
+            <span class="down-arrow"><i class="fa-solid fa-angle-down"></i></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Blog - Classic</a></li>
+            <li><a href="#">Blog - Classic With Sidebar</a></li>
+            <li><a href="#">Blog - Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="icons">
+        <li>
+          <a href=""><span class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></span></a>
+        </li>
+        <li>
+          <a href=""><span><i class="fa-regular fa-user"></i></span></a>
+        </li>
+        
+        <li>
+          <a href=""><span><i class="fa-regular fa-heart"></i></span></a>
+        </li>
+        <li class="cart-count">
+          <a href="">
+            <span class="count">0</span>
+            <span><i class="fa-solid fa-bag-shopping"></i></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+  <!-------------------------------------off canvas------------------------------------------> 
+  
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+      <img src="./assets/images/nav.Logo (1).png" alt="">
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " aria-current="page" href="#">Pages</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+          Features
+          <span class="down-arrow"><i class="fa-solid fa-angle-down"></i></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Features</a></li>
+          <li><a class="dropdown-item" href="#">Man's collection</a></li>
+          <li><a class="dropdown-item" href="#">Women's Collection</a></li>
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+           Blogs
+            <span class="down-arrow"><i class="fa-solid fa-angle-down"></i></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Blog - Classic</a></li>
+            <li><a href="#">Blog - Classic With Sidebar</a></li>
+            <li><a href="#">Blog - Details</a></li>
+          </ul>
+        </li> 
+        
+      <li class="nav-item">
+        <a class="nav-link " href="#"  >Contact</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+ 
+                <!--------off canvas end--------->
+  <!--SEARCH-->
+  <div class="search-box">
+    <span class="cross-btn"><i class="fa-solid fa-xmark"></i></span>
+    <form action=""class="test">
+      <input class="input-test" type="test" placeholder="search">
+      <button><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+    </form>
+  </div>
+  <!--SEARCH END-->          
+ <!-----------------------------****     NAV END       *****------------------------------------------->
+
+<!--------*******BANNER*************------------------------->
+<section id="banner">
+
+  <div class="bannerSlider">
+
+
+  <div class="slide" style="background: url(./assets/images/banner.jpg);">
+    <div class="container h-100">
+    <div class="row align-items-center h-100">
+      <div class="bannerCnt col-6">
+        <h4>Mega Sale</h4>
+        <h2>Up To 35% Off</h2>
+        <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+        <a href="#" class="primary-btn">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+   <div class="slide" style="background: url(./assets/images/./seller/banner\ 5.webp);">
+    <div class="container h-100">
+   <div class="row align-items-center h-100">
+  <div class="bannerCnt col-6">
+    <h4>Mega Sale</h4>
+    <h2>Up To 35% Off</h2>
+    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+    <a href="#" class="primary-btn">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+ 
+
+  <div class="slide" style="background: url(./assets/images/./seller/lip\ blam.jpeg);">
+    <div class="container h-100">
+   <div class="row align-items-center h-100">
+  <div class="bannerCnt col-6">
+    <h4>Mega Sale</h4>
+    <h2>Up To 35% Off</h2>
+    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+    <a href="#" class="primary-btn">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+</section>
+
+<!--------*******BANNER END*************-->
+<!--PRODUCT -->
+<section id="product">
+  <div class="container py-5">
+ <div class="row">
+
+   <div class="col-lg-5 product_test p-0 m-0">
+
+     <div class="row m-0 h-100 product_test align-items-center">
+      
+         <div class="col-lg-12 first product_card">
+           <img  class="w-100" src="./assets/images/Mask here (1).png" alt="">
+           <div class="overlay">
+             <h2>Beauty Cream</h2>
+             <h4><a href="#">Shop now  <span><i class="fa-solid fa-arrow-right"></i></span></a> </h4>
+           </div>
+         </div>
+       
+         <div class="col-lg-12 second product_card">
+           <img  class=" w-100" src="./assets/images/Mask here (2).png" alt="">
+           <div class="overlay">
+             <h2>Toner</h2>
+             <h4><a href="#">Shop now  <span><i class="fa-solid fa-arrow-right"></i></span></a> </h4>
+           </div>
+         </div>
+     </div>
+  
+  </div>
+
+  <div class="col-lg-7 third product_card ">
+   <img class="p-2 img-fluid" src="./assets/images/Item 2.png" alt="">
+   <div class="overlay">
+     <h2>Soap</h2>
+     <h4><a href="#">Shop now  <span><i class="fa-solid fa-arrow-right"></i></span></a> </h4>
+   </div>
+  </div>
+ </div>
+
+  </div>
+  </section>
+<!--PRODUCT END -->
+
+<!--------******NEW ARRIVAL*************-->
+<section id="arrival">
+  <div class="container">
+    <h2>New Arrivals Products</h2>
+    <div class="parent_arrivals">
+
+
+         <div class="sub_arrivals">
+         <div class="arrivals_images">
+           <img src="./assets/images/new arrivle 1.png" alt="">
+           <img src="./assets/images/new arrivle 3.png" alt="">
+         </div>
+         <div class="arrivals_contents">
+           <span class="price">$150.65</span>
+           <h4>Lotion Shower gel</h4>
+           <div class="star">
+             <span><i class="fa-solid fa-star"></i></span>
+           <span><i class="fa-solid fa-star"></i></span>
+           <span><i class="fa-solid fa-star"></i></span>
+           <span><i class="fa-solid fa-star"></i></span>
+           <span><i class="fa-solid fa-star"></i></span>
+           </div>
+
+           <div class="discount">
+            <span>-45%</span>
+           </div>
+<div class="icons">
+  <ul>
+    <li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+    <li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-heart"></i></span></a></li>
+    <li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-eye"></i></span></a></li>
+    <li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-clipboard-list"></i></span></a></li>
+  </ul>
+</div>
+ </div>
+ </div>
+
+
+ <div class="sub_arrivals">
+  <div class="arrivals_images">
+    <img src="./assets/images/new arrivle 2.png" alt="">
+    <img src="./assets/images/new arrivle 4.png" alt="">
+  </div>
+  <div class="arrivals_contents">
+    <span class="price">$250.65</span>
+    <h4>Argan Cream Body Butter</h4>
+    <div class="star">
+      <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    </div>
+
+    <div class="discount">
+     <span>Sale</span>
+    </div>
+<div class="icons">
+<ul>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-heart"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-eye"></i></span></a></li>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-clipboard-list"></i></span></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="sub_arrivals">
+  <div class="arrivals_images">
+    <img src="./assets/images/new arrivle 3.png" alt="">
+    <img src="./assets/images/new arrivle 1.png" alt="">
+  </div>
+  <div class="arrivals_contents">
+    <span class="price">$175.65</span>
+    <h4>Compact Face Powder</h4>
+    <div class="star">
+      <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    <span><i class="fa-solid fa-star"></i></span>
+    </div>
+
+    <div class="discount">
+      <span>-45%</span>
+    </div>
+<div class="icons">
+<ul>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-heart"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-eye"></i></span></a></li>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-clipboard-list"></i></span></a></li>
+</ul>
+</div>
+ </div>
+  </div>
+
+
+<div class="sub_arrivals">
+    <div class="arrivals_images">
+      <img src="./assets/images/new arrivle 4.png" alt="">
+      <img src="./assets/images/new arrivle 2.png" alt="">
+    </div>
+    <div class="arrivals_contents">
+      <span class="price">$75.65</span>
+      <h4>Manicure Gel nails, makeup</h4>
+      <div class="star">
+        <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+      </div>
+
+      <div class="discount">
+       <span>New</span>
+      </div>
+<div class="icons">
+<ul>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-heart"></i></span></a></li>
+<li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-eye"></i></span></a></li>
+<li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-clipboard-list"></i></span></a></li>
+</ul>
+</div>
+
+    </div>
+    </div>
+
+
+    <div class="sub_arrivals">
+      <div class="arrivals_images">
+        <img src="./assets/images/new arrivle 3.png" alt="">
+        <img src="./assets/images/new arrivle 1.png" alt="">
+      </div>
+      <div class="arrivals_contents">
+        <span class="price">$175.65</span>
+        <h4>Compact Face Powder</h4>
+        <div class="star">
+          <span><i class="fa-solid fa-star"></i></span>
+        <span><i class="fa-solid fa-star"></i></span>
+        <span><i class="fa-solid fa-star"></i></span>
+        <span><i class="fa-solid fa-star"></i></span>
+        <span><i class="fa-solid fa-star"></i></span>
+        </div>
+    
+        <div class="discount">
+          <span>-45%</span>
+        </div>
+    <div class="icons">
+    <ul>
+    <li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+    <li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-heart"></i></span></a></li>
+    <li><a href="#"><span  data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-eye"></i></span></a></li>
+    <li><a href="#"><span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"><i class="fa-solid fa-clipboard-list"></i></span></a></li>
+    </ul>
+    </div>
+    </div>
+      </div>
+    
+  </div>
+  </div>
+</section>
+
+<!--------*******NEW ARRIVAL END*************-->
+
+
+
+
+
+<!-----------MASK---------->
+<Section id="mask">
+  <div class="mask_test">
+    <div class="image" style="background-image: url(./assets/images/Mask\ .png);">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+        <h2>Get Up To 35% Off all
+          Best Spa Cosmetics
+          Cream</h2>
+          <p>Holisticly maximize interoperable action items for effective e-business. Globally impact enterprise-wide niche markets through dynamic.</p>
+          <div class="Details">
+            <a href="#" class="primary-btn">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</Section>
+<!-----------MASK END------->
+
+
+<!------------SELLER--------->
+<section id="seller">
+<div class="container">
+  <h2>Best Seller Products</h2>
+  <div class="parent_sellers">
+
+<div class="sub_sellers">
+  <div class="seller_images">
+    <img src="./assets/images/new arrivle 1.png" alt="">
+    <img src="./assets/images/new arrivle 4.png" alt="">
+  </div>
+  <div class="sellers_contents">
+    <span class="price">$75.65</span>
+    <h4>Manicure Gel nails, makeup</h4>
+  </div>
+  <div class="star">
+    <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  </div>
+</div>
+
+
+
+<div class="sub_sellers">
+  <div class="seller_images">
+    <img src="./assets/images/new arrivle 1.png" alt="">
+    <img src="./assets/images/new arrivle 4.png" alt="">
+  </div>
+  <div class="sellers_contents">
+    <span class="price">$75.65</span>
+    <h4>Manicure Gel nails, makeup</h4>
+  </div>
+  <div class="star">
+    <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  <span><i class="fa-solid fa-star"></i></span>
+  </div>
+</div>
+
+
+
+
+
+
+
+  </div>
+</div>
+</section>
+<!------------SELLER END--------->
+
+
+<!-- -----DATE---->
+<Section id="time">
+  <div class="countdown">
+    <!-- <h1>countdown</h1> -->
+    <div class="timer">
+      <ul>
+        <li>
+          <span class="days">5</span>
+          Days
+        </li>
+        <li>
+          <span>66</span>
+          Hours
+        </li>
+        <li>
+          <span>66</span>
+          minuts
+        </li>
+        <li>
+          <span class="sec">66</span>
+          Sec
+        </li>
+      </ul>
+    </div>
+    <!-- <div id="countdown-active"></div> -->
+      </div>
+    
+
+
+</Section> 
+
+
+
+<!--------DATE END---------->
+
+
+<!---------------BEAUTY--------->
+
+<!---------------BEAUTY END--------->
+
+
+
+
+<!-----LATEST NEWS------->
+<section id="latest">
+<div class="container">
+  <div class="row">
+    <h4>Latest News</h4>
+    <div class="latest py-5">
+
+<div class="latest-test">
+  <img class="images" src="./assets/images/latest/beauty cream 1.jpg" alt="">
+  <div class="latest-info">
+    <h3>Best multi-step Beauty skin.</h3>
+    <p>Appropriately seize 24/365 markets without adaptive.</p>
+    <div><a href="#">Read More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <span>Jan 04, 2022</span>
+     </div>
+  </div>
+</div>
+
+
+
+<div class="latest-test">
+  <img class="images" src="./assets/images/latest/dry scalp 2.webp" alt="">
+  <div class="latest-info">
+    <h3>Herbal treatment for dry scal</h3>
+    <p>Appropriately seize 24/365 markets without adaptive.</p>
+    <div><a href="#">Read More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <span>Jan 04, 2022</span>
+     </div>
+  </div>
+</div>
+
+
+<div class="latest-test">
+  <img class="images" src="./assets/./images/latest/travel-solo 3.jpg" alt="">
+  <div class="latest-info">
+    <h3>Traveling Solo Is Awesome</h3>
+    <p>Appropriately seize 24/365 markets without adaptive.</p>
+    <div><a href="#">Read More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <span>Jan 04, 2022</span>
+     </div>
+  </div>
+</div>
+
+<div class="latest-test">
+  <img class="images" src="./assets/images/latest/-staff-skin-5.webp" alt="">
+  <div class="latest-info">
+    <h3>Best multi-step Beauty skin.</h3>
+    <p>Appropriately seize 24/365 markets without adaptive.</p>
+    <div><a href="#">Read More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <span>Jan 04, 2022</span>
+     </div>
+  </div>
+</div>
+
+
+<div class="latest-test">
+  <img class="images" src="./assets/images/latest/./sunday-morning 4.jpg" alt="">
+  <div class="latest-info">
+    <h3>A Beautiful Sunday Morning</h3>
+    <p>Appropriately seize 24/365 markets without adaptive.</p>
+    <div><a href="#">Read More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <span>Jan 04, 2022</span>
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+</section>
+<!-----LATEST NEWS END------->
+
+
+
+
+<!-----TOP CARD------>
+<section id="card" class="py-5">
+  <div class="container">
+    <div class="top_card">
+      <div class="row py-4">
+        <div class="col-lg-3 test">
+          <div class="row">
+            <div class="col-3">
+              <span><i class="fa-solid fa-truck-fast"></i></span>
+            </div>
+            <div class="col-8">
+              <h4>FREE SHIPING</h4>
+              <p>all orders over <span style="color: #ff6f61;">$150</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 test">
+          <div class="row">
+            <div class="col-3">
+        <span><i class="fa-regular fa-credit-card"></i></span>
+            </div>
+            <div class="col-8">
+              <h4>QUICK PAYMENT</h4>
+              <p>100% secure payment</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 test">
+        <div class="row">
+          <div class="col-3">
+            <span><i class="fa-solid fa-money-bill-trend-up"></i></span>
+          </div>
+          <div class="col-8">
+        <h4>FREE RETURNS</h4>
+        <p>Return money within 30 days</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 test">
+        <div class="row">
+          <div class="col-4">
+            <span><i class="fa-solid fa-headset"></i></span>
+          </div>
+          <div class="col-8">
+            <h4>24/7 SUPPORT</h4>
+            <p>Quick Support</p>
+          </div>
+        </div>
+        </div>
+              </div>
+            </div>
+          </section>
+          <!-----TOP CARD END------>
+
+
+
+<!-----FOOTER ------>
+            <footer id="footer" class="py-5">
+              <div class="container">
+<div class="row pb-5" style="border-bottom: 1px solid #fff;">
+
+
+<div class="col-lg-3">
+  <div class="icons">
+    <span><i class="fa-brands fa-square-facebook"></i></span>
+    <span><i class="fa-brands fa-twitter"></i></span>
+    <span><i class="fa-brands fa-instagram"></i></span>
+    <span><i class="fa-brands fa-pinterest-p"></i></span>
+</div>
+</div>
+
+<div class="col-lg-6 text-center">
+  <div class="logo">
+    <img src="./assets/images/Logo (2).png" alt="">
+  </div>
+</div>
+
+<div class="col-lg-3 text-end">
+  <div class="end">
+    <img src="./assets/images/25654-2-major-credit-card-logo-transparent-thumb 1.png" alt="">
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="row footerSec mt-4" style="color:#fff">
+
+  
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+    <div class="test">
+     <h4  class=" font-weight-bold text-white">My Account</h4>
+     <ul>
+       <li>
+         <a href="#"><i class="fa-solid fa-chevron-right"></i> My Account</a>
+       </li> 
+       <li> 
+         <a href="#"><i class="fa-solid fa-chevron-right"></i> View Cart</a>
+       </li> 
+       <li> 
+         <a href="#"><i class="fa-solid fa-chevron-right"></i> Wishlist</a>
+       </li> 
+       <li> 
+         <a href="#"><i class="fa-solid fa-chevron-right"></i> Compare</a>
+       </li> 
+       <li> 
+         <a href="#"><i class="fa-solid fa-chevron-right"></i> New Products</a>
+       </li>
+     </ul>
+   </div>
+  </div>
+  
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+  <div class="test">
+    <ul>
+      <h4 class="font-weight-bold text-white">Support</h4>
+      <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Help</a></li>
+      <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+      <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Feedback</a></li>
+      <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Customer Service</a></li>
+      <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Store Locations</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  
+
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-light">
+    <div class="second">
+      <h5 mb-4 font-weight-bold text-white>Opening Time</h5>
+      <table>
+      <tr>
+      <td>Mon - Tue:</td>
+      <td style="padding-left: 7px;">8AM - 10PM</td>
+      </tr>
+      <tr>
+      <td>Wed:</td>
+      <td style="padding-left: 7px;">8AM - 7PM</td>
+      </tr>
+      <tr>
+      <td>Sat:</td>
+      <td style="padding-left: 7px;"> 9AM - 8PM</td>
+      </tr>
+      <tr>
+      <td>Sun:</td>
+      <td style="padding-left: 7px;"> Closed</td>
+      </tr>
+      </table>
+  </div>
+  </div>
+  
+
+<div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+  <div class="test">
+    <ul>
+    <h4 class=" mb-4 font-weight-bold text-white">Contact Us</h4>
+   
+      <li><a href="#"><i class="fa-solid fa-location-dot"></i>830 Broad way, New York, NY 10003,
+        United States</a></li>
+        <li><a href="tel:+18008660286"><i class="fa-solid fa-phone"></i>+18008660286</a></li>
+        <li><a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i>aetor.info@gmail.com</a></li>
+        <li><a href="#"><i class="fa-solid fa-globe"></i>info@aetor.com</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+    <div class="test">
+        <ul>
+          <h4>News Letter</h4>
+          <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+          <div class="btn-group">
+            <input type="text" class="Subscribe" placeholder="Enter your email...">
+            <button>Subscribe</button>
+          </div>
+        </ul>
+  </div>
+</div>
+  </div>
+
+
+<div class="footerThird">
+	<p>© 2022 All Rights Reserved <span style="color: #FF6F61;">Aytor</span> By <span style="color: #FF6F61;">Angfuzsoft.</span></p>
+	</div>
+
+
+
+
+</div>
+  </div>
+</footer>
+<!-----FOOTER END------>
+
+
+
+
+
+
+
+
+
+    <!--  jquery  -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!--  slick slider  -->
+      <script src="assets/js/slick.min.js"></script>
+    <!--  font awsome  -->
+      <script src="./assets/js/all.min.js"></script>
+     <!--  bootstrap 5.3  -->
+       <script src="./assets/js/bootstrap.bundle.min.js"></script>
+       <!--countdown-->
+       <script src="./assets/js/jquery.countdown.min.js"></script>
+     <!--  custom js -->
+       <script src="./assets/js/app.js"></script>
+</body>
+</html>
+
+
